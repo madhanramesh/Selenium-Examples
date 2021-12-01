@@ -38,4 +38,5 @@ WebElement sssize = driver.findElement(By .id("size"));
 int c =sssize.getSize().getHeight();
 int v =sssize.getSize().getWidth();
 System.out.println("height:" +c+ "width:"+v);
+		driver.close();
 	}}
